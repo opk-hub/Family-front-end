@@ -1,0 +1,135 @@
+
+.home-container {
+    background-color: #0c1022;
+    width: 100vw;
+    height: auto;
+    padding: 10px;
+     /* border: 1px solid #ccc;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center; 
+
+    
+
+   } 
+  
+
+  .home-title {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+      color: rgb(67, 133, 9);
+      text-shadow:2px 1px 1px  yellowgreen ;
+  
+    
+  }
+ 
+  .member-card{
+    position: relative;
+    width: 400px;
+    height: 470px;
+    max-width: 400px;
+    max-height: 470px;
+    background: #040717;
+    border-radius: 50px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 70px;
+  }
+
+  
+  .member-card::before{
+
+    position: absolute;
+    width: 170%;
+    height: 170%;
+    content: '';
+    background-image: conic-gradient(transparent, transparent, transparent, #ee00ff);
+    animation: rotate_border 6s linear infinite;
+
+}
+.member-card::after{
+
+    position: absolute;
+    width: 170%;
+    height: 170%;
+    content: '';
+    background-image: conic-gradient(transparent, transparent, transparent, #00ccff);
+    animation: rotate_border 6s linear infinite;
+    animation-delay: -3s;
+}
+@keyframes rotate_border{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.sub-card{
+    position: absolute;
+    content: '';
+    background-color: #0c1022;
+    border-radius: 50px 5px;
+    inset: 5px;
+    padding: 50px 40px;
+    z-index: 10;
+    color: #00ccff;
+
+} 
+  
+  
+  .member-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    }
+  
+  .member-info {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+
+  @media screen and (min-width: 280px) and (max-width: 398px) {
+    .member-card{
+      position: relative;
+      width: 280px;
+      height: 470px;
+      max-width: 400px;
+      max-height: 470px;
+      background: #040717;
+      border-radius: 50px 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      margin-top: 70px;
+    }
+    .home-container {
+      background-color: #0c1022;
+      width: 100vw;
+      height: auto;
+      padding: 20px;
+       /* border: 1px solid #ccc;  */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-self: center; 
+  
+      
+  
+     } 
+  }
+
+  
+  
+  

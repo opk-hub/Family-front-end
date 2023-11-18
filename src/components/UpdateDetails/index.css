@@ -1,0 +1,142 @@
+
+
+.update-details-container {
+    padding: 30px;
+    height: 150vh;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #e74c3c, #f39c12);
+}
+  /* .update-details-card{
+    max-width: auto;
+    background-color: #333;
+    margin-bottom: 50px;
+
+  } */
+  
+  .update-details-heading {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .update-details-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .update-details-list-item {
+    background-color: #fff;
+    width: 600px;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0.5, 0.5);
+  }
+  
+
+  
+  .name-relationship-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 400px;
+  }
+  
+  .name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .relationship {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .update-details-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .update-details-link:hover {
+    text-decoration: underline;
+  }
+  
+  .update-details-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .update-details-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Media query for mobile devices */
+  @media screen and (max-width: 367px) {
+    .update-details-list-item {
+        width: auto;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0.5, 0.5);
+      }
+      .name-relationship-container {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+        width: auto;
+      }
+      .relationship {
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+        margin-right: 20px;
+      }
+
+    
+  }
+
+  @media screen and (min-width: 368px)and (max-width: 767px) {
+   
+    .update-details-list-item {
+        width: auto;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0.5, 0.5);
+    }
+      .name-relationship-container {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+        width: auto;
+        margin: 20px;
+
+      }
+      .relationship {
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+        margin-right: 20px;
+      }
+
+      
+
+  }
+
+  
+  /* Media query for laptop devices */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    
+   
+  }
+  
+
+  

@@ -1,0 +1,138 @@
+
+.person-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .submitted-data-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-image: conic-gradient(rgb(0, 255, 255), yellow, rgb(116, 204, 197));
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+  }
+
+
+  .color-paragraph {
+    color: darkorchid;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+  }
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+
+
+  
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-section {
+
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #ff6e7f, #bfe9ff);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .file-input {
+    margin-bottom: 10px;
+  }
+  label{
+    font-weight: bold;
+  }
+  
+  .text-input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 95%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .save-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .save-button:hover {
+    background-color: #218838;
+  }
+
+  .home-button{
+    background-color: #0056b3;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 30px;
+    color: #f2f2f2;
+  }
+
+  
+  /* Responsive Design */
+  @media screen and (max-width: 767px) {
+    /* Adjust styles for smaller screens */
+    .text-input {
+      width: 100%;
+    }
+  
+    .file-input {
+      width: 100%;
+    }
+  }
+  
+
+
+
+
+/* Media query for laptop devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .form-section {
+    width: 60%;
+  }
+}
+
+/* Media query for desktop devices */
+@media (min-width: 1024px) {
+  .form-section {
+    width: 40%;
+  }
+}

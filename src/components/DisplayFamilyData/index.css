@@ -1,0 +1,141 @@
+.centered-container {
+    
+    margin: 0 auto;
+    padding: 20px;
+  }
+.display-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    background: linear-gradient(to right, #3498db, #2ecc71);
+
+  }
+  
+  .register-section {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .family-section{
+    width: 600px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  /* Title for each register_id section */
+  .register-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .family-list {
+    list-style: none;
+    padding: 0;
+  }
+  .family-title{
+    margin-left: 10px;
+  }
+  
+  .family-member {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .field-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .d-mem{
+    color: yellowgreen;
+    margin-left: 10px;
+    text-shadow:2px 1px 1px black ;
+
+    
+  }
+  .d-name{
+    color: rgb(67, 133, 9);
+    margin-left: 10px;
+    text-shadow:2px 1px 1px  #333333 ;
+    margin-right: 20px;
+  }
+
+  @media screen and (min-width: 368px)and (max-width: 767px) {
+    .family-section{
+      width: auto;
+      max-width: 400px;
+  
+    }
+    .display-container{
+      justify-content: start;
+    }
+    .family-member{
+      flex-direction: column;
+    }
+  
+
+  }
+  /* Media query for mobile devices */
+  @media screen and (max-width: 367px) {
+    .register-title {
+      font-size: 16px;
+    }
+    .family-member {
+      padding: 8px;
+      margin: 8px 0;
+    }
+    .family-section{
+      width: auto;
+  
+    }
+  }
+  
+  /* Media query for laptop devices */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .register-title {
+      font-size: 18px;
+    }
+    .family-member {
+      padding: 10px;
+      margin: 10px 0;
+    }
+    /* .display-container{
+      justify-content: center;
+
+    }
+    .family-member{
+      flex-direction: row;
+    }
+    .family-section{ */
+      /* width: 700px;
+  
+    } */
+  }
+  
+  /* Media query for desktop devices */
+  @media (min-width: 1024px) {
+    .register-title {
+      font-size: 20px;
+    }
+    .family-member {
+      padding: 12px;
+      margin: 12px 0;
+    }
+  }
+  

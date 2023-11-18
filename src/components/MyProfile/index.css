@@ -1,0 +1,167 @@
+
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(183, 255, 0);
+  padding: 15px;
+ 
+}
+
+.user-info {
+  
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 800px;
+}
+
+.user{
+  display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+}
+
+.heading{
+  font-size: 20px; 
+  font-weight: bold; 
+  color: #333333; 
+  text-align: center; 
+  text-transform: uppercase; 
+  margin-bottom: 20px; 
+}
+.my-name{
+  font-weight: 700;
+  color: color(from rgb(94, 218, 162) srgb r g b);
+text-shadow:2px 2px 2px  #333333 ;
+}
+
+.dis-user-name{
+  
+  color: turquoise;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px blueviolet ;
+  
+  
+}
+/* Logout Button */
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex; 
+  align-items: center;
+}
+
+.logout-button:hover {
+  background-color: #c0392b;
+}
+
+.family-members {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.add-member-form {
+  margin-top: 20px;
+}
+
+.add-member-form input,
+.add-member-form select {
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-member-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-member-form button:hover {
+  background-color: #0056b3;
+}
+
+.member-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.family-member {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-button {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+}
+
+.edit-save-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.edit-save-button:hover {
+  background-color: #218838;
+}
+
+.success-message {
+  color: #28a745;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .add-member-form input,
+  .add-member-form select {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 100px;
+
+  }
+
+}
+
+
+@media screen and (min-width: 768px) {
+  .centered-content {
+ 
+    background-color: wheat;
+  }
+}

@@ -1,0 +1,83 @@
+.heading-res{
+
+  color: #007bff;
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: 500px;
+}
+.register-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column; 
+}
+
+.register-label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.register-input {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.register-submit-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-submit-button:hover {
+  background-color: #45a049;
+}
+
+.signup-link {
+  margin-top: 20px;
+  font-size: 14px;
+  
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  .register-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .register-input {
+    font-size: 14px;
+  }
+
+  .register-submit-button {
+    font-size: 16px;
+  }
+}
